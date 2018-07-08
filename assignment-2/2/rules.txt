@@ -1,0 +1,4 @@
+a(n,x) -> x
+a(c(x,y),z) -> c(x,a(y,z))
+r(n) -> n
+r(c(x,y)) -> a(r(y),c(x,n))
